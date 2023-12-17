@@ -154,3 +154,4 @@ C:\Users\simon\Desktop\Skolinn\3. Semester\Semester Projekt\ZealandBrugerAPI\Zea
 C:\Users\simon\Desktop\Skolinn\3. Semester\Semester Projekt\ZealandBrugerAPI\ZealandBrugerAPI\ZealandBrugerAPI\ZealandBrugerAPI\obj\Debug\net6.0\ZealandBrugerAPI.pdb
 C:\Users\simon\Desktop\Skolinn\3. Semester\Semester Projekt\ZealandBrugerAPI\ZealandBrugerAPI\ZealandBrugerAPI\ZealandBrugerAPI\obj\Debug\net6.0\ZealandBrugerAPI.genruntimeconfig.cache
 C:\Users\simon\Desktop\Skolinn\3. Semester\Semester Projekt\ZealandBrugerAPI\ZealandBrugerAPI\ZealandBrugerAPI\ZealandBrugerAPI\obj\Debug\net6.0\ref\ZealandBrugerAPI.dll
+C:\Users\simon\Desktop\Skolinn\3. Semester\Semester Projekt\ZealandBrugerAPI\ZealandBrugerAPI\ZealandBrugerAPI\ZealandBrugerAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll

@@ -30,7 +30,7 @@ namespace ZealandBrugerAPI.Controllers
         }
 
         // GET api/<BrugereController>/5
-        [HttpGet("{id}")]
+        [HttpGet("Id/{id}")]
         public async Task<ActionResult<Bruger>> Get(int id)
         {
             if (_dbContext.Set<Bruger>() == null) 
@@ -38,14 +38,14 @@ namespace ZealandBrugerAPI.Controllers
                 return NotFound();            
             }
 
-            var bruger = await _dbContext.bruger.FindAsync(id);
+            var findBruger = await _dbContext.bruger.FindAsync(id);
 
-            if (bruger == null)
+            if (findBruger == null)
             {
                 return NotFound("No bruger with given Id");
             }
 
-            return Ok(bruger);
+            return Ok(findBruger);
         }
 
         // POST api/<BrugereController>

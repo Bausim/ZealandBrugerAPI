@@ -20,7 +20,7 @@ namespace ZealandBrugerAPI.EDbContext
             modelBuilder.Entity<Bruger>()
                 .HasKey(b => b.Id); // Assuming Bruger has a property named Id
             modelBuilder.Entity<Bruger>()
-                .HasKey(b => b.Admin);
+                .Property(b => b.Admin);
 
             modelBuilder.Entity<Bruger>()
                 .Property(b => b.Brugernavn)
